@@ -1,0 +1,164 @@
+*{
+    margin: 0px;
+    scroll-behavior: smooth;
+    padding: 0px;
+}
+.box-son{
+    display: inline-block;
+    font-family: 'Spartan', sans-serif  ;
+    font-size: 1.1em;
+    font-weight: lighter;
+
+   
+}
+.box-son a{
+    padding: 20px 30px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-weight:bold; 
+    color: #353b48;
+}
+
+.logo{
+    height: 100%;
+}
+nav{ 
+    background-color: #dfe6e9;
+}
+.box-flex{
+    display: flex;
+    padding: 1.4%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contenido_principal{
+    font-family: 'Spartan', sans-serif;
+    background-color: rgba(255, 255, 255, 0);
+    width: 71vw;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    color: #2f3640;
+}
+.box-son :hover{
+    background-color: #2f3640;
+    color: #f4f7f8;
+    border-radius: 20px;
+}
+
+.contenido_principal p{
+    font-size: 3vh;
+}
+
+.contenido_principal img{
+    margin-right: 7em;
+    display: block;
+    width: 25vh;
+    height: auto;
+    border-radius: 60%;
+    text-align: center;
+
+}
+.titulo h2{
+    padding-top: 30vh;
+    margin: auto;
+    margin-bottom: 5vh;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2.4em;
+    text-shadow: rgba(41, 41, 37, 0.302) 1px 1px 1px;
+    color: #2f3640;
+    letter-spacing: 3px;
+    
+}
+ 
+.head{
+
+    height: 37em;
+    width: 100%;
+    background-color: #2f3640;
+}
+header{
+color: rgb(255, 255, 255);
+height: 37vh;
+width: 70vw;
+margin: auto;
+
+
+
+}
+.bienvenido{
+    text-align: center;
+    padding-top: 1em;
+    font-weight: normal;
+    font-family: 'Spartan', sans-serif;
+    font-size: 17vh;
+    color: rgb(255, 255, 255);
+    text-shadow: rgba(75, 72, 72, 0.563) 2px 2px 2px;
+}
+header h2{
+    margin-top: 1em;
+    font-size: 2em;
+    text-align: center;
+    padding-top: 0.3em;
+    font-family: 'Urbanist', sans-serif;
+    font-weight: normal;
+    font-weight: lighter    ;
+}
+header h3{
+    
+    font-size: 2em;
+    text-align: center;
+    padding-top: 0.6em;
+    font-family: 'Urbanist', sans-serif;
+    font-weight: normal;
+    font-weight: lighter    ;
+}
+
+.sobre-mi{
+    height: 100vh;
+
+}
+main{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+@media only screen and (max-width: 600px){
+    .contenido_principal{
+       font-size: 10px;
+       flex-direction: column;
+    }
+    .bienvenido{
+        font-size: 7vh;
+    }
+    .contenido_principal img{
+        margin: 0 0 5vh 0;
+
+    }
+    .contenido_principal p{
+        text-align: center;
+    }
+    .titulo h2{
+        margin-top: 10vh;
+    }
+    nav{
+        height: 100vh;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    nav ul{
+         font-size: 4vh;
+         padding: 0px;
+    }
+    nav ul li{
+        padding: 8.5vh;
+    }
+    .head{
+        height: 100vh;
+    }
+}
